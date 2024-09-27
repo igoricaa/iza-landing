@@ -38,9 +38,11 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${gtAmericaMono.variable} `}>
-        <Header />
-        {children}
-        <Footer />
+        <main>
+          <Header />
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   );

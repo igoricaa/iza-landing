@@ -1,7 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --text-size: 11px;
   --logo-size: 3rem;
   --hf-max-width: 2160px;
+  --site-padding: 2rem;
 }
 
 * {
@@ -16,10 +21,7 @@ body {
   overflow-x: hidden;
   font-family: var(--font-gtAmericaMono);
   font-weight: 400;
-}
-
-body {
-  // position: relative;
+  height: 100%;
 }
 
 a {
@@ -35,4 +37,16 @@ li {
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tsf {
+  line-height: 1.3;
+  margin-bottom: -0.1ch;
+  margin-top: -0.1ch;
 }

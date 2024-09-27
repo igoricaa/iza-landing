@@ -1,14 +1,12 @@
-import styles from './Footer.module.scss';
-
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.footer__innerWrapper}>
+    <footer className='mt-auto p-6 text-secondary lg:fixed lg:bottom-0 lg:left-0 w-full'>
+      <div className='flex justify-between text-xs font-light uppercase -mt-[.5vw]'>
         <div>
-          <span>COPYRIGHT @ IZA</span>
+          <span className='tsf'>COPYRIGHT @ IZA</span>
         </div>
         <div>
-          <span>TEMPORARY WEBSITE</span>
+          <span className='tsf'>TEMPORARY WEBSITE</span>
         </div>
       </div>
     </footer>
