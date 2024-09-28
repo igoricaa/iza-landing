@@ -166,14 +166,11 @@ export default function Home() {
           </Link>
         </div>
         <div className='col-span-2 flex justify-start lg:row-start-2 lg:col-start-4 2xl:col-start-5'>
-          <Link
-            href=''
-            className='flex flex-col uppercase text-xs leading-none font-light hover:bg-main pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 '
-          >
+          <div className='flex flex-col uppercase text-xs leading-none font-light hover:bg-main pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 '>
             <span className='ts tsf text-nowrap'>
               <span className='tsl'>- and a few others</span>
             </span>
-          </Link>
+          </div>
         </div>
       </div>
     </div>
