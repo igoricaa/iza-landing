@@ -40,11 +40,10 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${gtAmericaMono.variable} `}>
         <main>
-          <AnimationWrapper>
-            <Header />
-            {children}
-            <Footer />
-          </AnimationWrapper>
+          <AnimationWrapper />
+          <Header />
+          {children}
+          <Footer />
         </main>
       </body>
     </html>

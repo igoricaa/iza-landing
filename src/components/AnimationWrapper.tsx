@@ -2,9 +2,7 @@
 
 import { useEffect } from 'react';
 
-const AnimationWrapper = ({
-  children,
-}: Readonly<{ children: React.ReactNode }>) => {
+const AnimationWrapper = () => {
   useEffect(() => {
     const textElements = document.querySelectorAll('.tsl');
 
@@ -15,7 +13,7 @@ const AnimationWrapper = ({
     });
   }, []);
 
-  return children;
+  return null;
 };
 
 export default AnimationWrapper;
