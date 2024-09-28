@@ -61,7 +61,7 @@ main {
   transition: translate 1.2s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-// .tsl:not(.tsa) {
-//   --tw-translate-y: 120%;
-//   translate: var(--tw-translate-x) var(--tw-translate-y);
-// }
+.tsl:not(.tsa) {
+  --tw-translate-y: 120%;
+  translate: var(--tw-translate-x) var(--tw-translate-y);
+}
