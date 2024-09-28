@@ -166,10 +166,52 @@ export default function Home() {
           </Link>
         </div>
         <div className='col-span-2 flex justify-start lg:row-start-2 lg:col-start-4 2xl:col-start-5'>
-          <div className='flex flex-col uppercase text-xs leading-none font-light hover:bg-main pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 '>
+          <div className='flex flex-col uppercase text-xs leading-none font-light delay-[0.850s] hover:bg-main hover:delay-0 pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 relative cursor-pointer group'>
             <span className='ts tsf text-nowrap'>
               <span className='tsl'>- and a few others</span>
             </span>
+            <div className='hidden sm:flex flex-col gap-y-3 text-white bg-main absolute top-5 left-0 transition-[max-height] duration-700 delay-0 h-auto max-h-0 group-hover:max-h-96'>
+              <Link
+                href='https://www.instagram.com/travelboutique.rs//'
+                target='_blank'
+                className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-4 pl-4 pb-0.5 pr-4 lg:-mt-1 '
+              >
+                <span className='text-nowrap'>
+                  <span className=''>Travel Boutique - copy and voiceover</span>
+                </span>
+              </Link>
+              <Link
+                href='https://cassini.rs/'
+                target='_blank'
+                className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-1 pl-4 pb-0.5 pr-4 lg:-mt-1 '
+              >
+                <span className='text-nowrap'>
+                  <span className=''>
+                    Cassini - website design and development
+                  </span>
+                </span>
+              </Link>
+              <Link
+                href='https://www.instagram.com/mojakasa.rs//'
+                target='_blank'
+                className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-1 pl-4 pb-0.5 pr-4 lg:-mt-1 '
+              >
+                <span className='text-nowrap'>
+                  <span className=''>Moja Kasa - copy and voiceover</span>
+                </span>
+              </Link>
+              <Link
+                href='https://revelation-agency.com/'
+                target='_blank'
+                className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-1 pl-4 pb-4 pr-4 lg:-mt-1 '
+              >
+                <span className='text-nowrap'>
+                  <span className=''>
+                    Revelation Agency - website development
+                  </span>
+                </span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

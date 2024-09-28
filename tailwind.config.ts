@@ -16,6 +16,7 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
       '2xl': '1400px',
+      '3xl': '2160px',
     },
     extend: {
       colors: {
@@ -35,6 +36,9 @@ module.exports = {
       },
       transitionProperty: {
         background: 'background-color',
+        'max-height': 'max-height',
+        padding: 'padding',
+        border: 'border',
       },
     },
   },
