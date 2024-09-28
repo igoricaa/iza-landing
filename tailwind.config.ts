@@ -33,6 +33,9 @@ module.exports = {
           },
         ],
       },
+      transitionProperty: {
+        background: 'background-color',
+      },
     },
   },
   plugins: [],
