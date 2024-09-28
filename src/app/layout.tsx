@@ -3,7 +3,7 @@ import localFont from 'next/font/local';
 import './globals.scss';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import AnimationWrapper from '@/components/AnimationWrapper';
+// import AnimationWrapper from '@/components/AnimationWrapper';
 
 const gtAmericaMono = localFont({
   src: [
@@ -40,7 +40,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={`${gtAmericaMono.variable} `}>
         <main>
-          <AnimationWrapper />
+          {/* <AnimationWrapper /> */}
           <Header />
           {children}
           <Footer />
