@@ -1,19 +1,6 @@
-'use client';
-
 import Link from 'next/link';
-import { useEffect } from 'react';
 
 export default function Home() {
-  useEffect(() => {
-    const textElements = document.querySelectorAll('.tsl');
-
-    textElements.forEach((textElement, index) => {
-      setTimeout(() => {
-        textElement.classList.add('tsa');
-      }, index * 0.03 * 1000);
-    });
-  }, []);
-
   return (
     <div className='flex flex-col justify-center grow'>
       <div className='grid grid-cols-5 px-md1 uppercase'>
