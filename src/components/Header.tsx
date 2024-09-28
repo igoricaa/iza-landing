@@ -7,7 +7,7 @@ const Header = () => {
         <div className={styles.header__logo__wrapper}>
           <h1 className={styles.header__logo__wrapper__logo}>IZA</h1>
         </div>
-        <div className='flex flex-col items-center md:mr-[8vw] bg-main'>
+        <div className='flex flex-col items-center md:mr-[8vw] bg-main p-2'>
           <span >Watching your</span>
           <span>digital back</span>
         </div>

@@ -50,3 +50,13 @@ main {
   margin-bottom: -0.1ch;
   margin-top: -0.1ch;
 }
+
+.tsl {
+  display: block;
+  will-change: transform
+}
+
+.tsl:not(.tsa) {
+  --tw-translate-y: 100%;
+  translate: var(--tw-translate-x) var(--tw-translate-y) var(--tw-translate-z)
+}
