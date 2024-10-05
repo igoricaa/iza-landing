@@ -61,7 +61,7 @@ export default function RootLayout({
         <main>
           <AnimationWrapper />
           <Particles
-            className='absolute inset-0'
+            className='absolute inset-0 z-[-10]'
             quantity={150}
             ease={80}
             color='#000'
