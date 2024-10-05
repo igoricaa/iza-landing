@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --text-size: 11px;
-  --logo-size: 3rem;
-  --hf-max-width: 2160px;
-  --site-padding: 2rem;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --text-size: 11px;
+    --logo-size: 3rem;
+    --hf-max-width: 2160px;
+    --site-padding: 2rem;
+  }
 }
 
 * {

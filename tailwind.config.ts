@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ['class'],
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -27,12 +28,7 @@ module.exports = {
         md1: 'calc(17.64706px + .73529vw)',
       },
       fontSize: {
-        '2xl': [
-          'calc(40.64706px + .73529vw)',
-          {
-            lineHeight: '1',
-          },
-        ],
+        '2xl': ['calc(40.64706px + .73529vw)', { lineHeight: '1' }],
       },
       transitionProperty: {
         background: 'background-color',
@@ -40,7 +36,12 @@ module.exports = {
         padding: 'padding',
         border: 'border',
       },
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)',
+      },
     },
   },
-  plugins: [],
+  plugins: [import('tailwindcss-animate')],
 };

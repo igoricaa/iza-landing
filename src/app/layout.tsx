@@ -4,6 +4,7 @@ import './globals.scss';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AnimationWrapper from '@/components/AnimationWrapper';
+import Particles from '@/components/ui/particles';
 
 const gtAmericaMono = localFont({
   src: [
@@ -59,6 +60,13 @@ export default function RootLayout({
       <body className={`${gtAmericaMono.variable} `}>
         <main>
           <AnimationWrapper />
+          <Particles
+            className='absolute inset-0'
+            quantity={150}
+            ease={80}
+            color='#000'
+            refresh
+          />
           <Header />
           {children}
           <Footer />
