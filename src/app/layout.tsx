@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     default: 'IZA Agency',
     template: '%s | IZA',
   },
-  description: 'Official website of IZA.',
+  description: 'IZA - Watching your digital back.',
   openGraph: {
     title: 'IZA Agency',
-    description: 'Official website of IZA Agency.',
+    description: 'IZA - Watching your digital back.',
     url: 'https://iza.rs',
     siteName: 'IZA',
     locale: 'en_US',
