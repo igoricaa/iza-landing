@@ -28,7 +28,7 @@ export default function CalButton({ className }: { className?: string }) {
         <span className='tsl text-nowrap'>Grab a coffee?</span>
       </span>
       <span className='ts tsf group-hover:delay-750'>
-        <span className='tsl text-nowrap'>info@iza.rs</span>
+        <span className='tsl text-nowrap'>hello@iza.rs</span>
       </span>
     </button>
   );
