@@ -192,7 +192,7 @@ export default function Home() {
                 </span>
               </Link>
               <Link
-                href='https://www.instagram.com/mojakasa.rs//'
+                href='https://www.instagram.com/mojakasa.rs'
                 target='_blank'
                 className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-1 pl-4 pb-0.5 pr-4 lg:-mt-1 '
               >
