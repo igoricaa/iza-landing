@@ -145,27 +145,38 @@ export default function Home() {
         </div>
         <div className='col-span-2 flex justify-start lg:row-start-2 lg:col-start-3 2xl:col-start-4'>
           <Link
-            href='https://matijablagojevic.com/'
+            href='https://realvibestudio.com/'
             target='_blank'
-            className='flex flex-col uppercase text-xs leading-none font-light hover:bg-main pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 '
+            className='flex flex-col uppercase text-xs leading-none font-light hover:bg-main pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 relative before:invisible before:opacity-0 hover:before:visible hover:before:opacity-100 before:content-["Intro_video_is_not_ours_:)"] before:w-32 before:h-10 before:bg-main before:text-end before:content-white before:text-[10px] before:flex before:items-center before:justify-center before:px-2 before:absolute before:-bottom-10 before:right-0 before:z-10'
           >
             <span className='ts tsf text-nowrap'>
-              <span className='tsl'>6. Matija Blagojevic</span>
+              <span className='tsl'>6. Real Vibe</span>
             </span>
           </Link>
         </div>
         <div className='col-span-2 flex justify-start lg:row-start-1 lg:col-start-4 2xl:col-start-5'>
+          <Link
+            href='https://thundertopteam.com/'
+            target='_blank'
+            className='flex flex-col uppercase text-xs leading-none font-light hover:bg-main pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 '
+          >
+            <span className='ts tsf text-nowrap'>
+              <span className='tsl'>7. Thunder Top Team</span>
+            </span>
+          </Link>
+        </div>
+        <div className='col-span-2 flex justify-start lg:row-start-2 lg:col-start-4 2xl:col-start-5'>
           <Link
             href='https://wukiyo.com/'
             target='_blank'
             className='flex flex-col uppercase text-xs leading-none font-light hover:bg-main pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 '
           >
             <span className='ts tsf text-nowrap'>
-              <span className='tsl'>7. Wukiyo</span>
+              <span className='tsl'>8. Wukiyo</span>
             </span>
           </Link>
         </div>
-        <div className='col-span-2 flex justify-start lg:row-start-2 lg:col-start-4 2xl:col-start-5'>
+        <div className='col-span-2 flex justify-start lg:row-start-3 lg:col-start-4 2xl:col-start-5 mt-4'>
           <div className='flex flex-col uppercase text-xs leading-none font-light delay-[0.850s] hover:bg-main hover:delay-0 pt-1 pl-1 pb-0.5 pr-1 lg:-mt-1 relative cursor-pointer group'>
             <span className='ts tsf text-nowrap'>
               <span className='tsl'>- and a few others</span>
@@ -178,6 +189,33 @@ export default function Home() {
               >
                 <span className='text-nowrap'>
                   <span className=''>Travel Boutique - copy and voiceover</span>
+                </span>
+              </Link>
+              <Link
+                href='https://matijablagojevic.com/'
+                target='_blank'
+                className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-1 pl-4 pb-0.5 pr-4 lg:-mt-1 '
+              >
+                <span className='text-nowrap'>
+                  Matija Blagojevic - website development
+                </span>
+              </Link>
+              <Link
+                href='https://warpstudio.rs/'
+                target='_blank'
+                className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-1 pl-4 pb-0.5 pr-4 lg:-mt-1 '
+              >
+                <span className='text-nowrap'>
+                  Warp Studio - website design and development
+                </span>
+              </Link>
+              <Link
+                href='https://granddental.rs/'
+                target='_blank'
+                className='flex flex-col uppercase text-xs leading-none font-light hover:underline decoration-white underline-offset-4 decoration-1 pt-1 pl-4 pb-0.5 pr-4 lg:-mt-1 '
+              >
+                <span className='text-nowrap'>
+                  Grand Dental - website design and development
                 </span>
               </Link>
               <Link
